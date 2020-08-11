@@ -21,9 +21,9 @@
     <ClCompile Include="Collision.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="DialogBox.cpp" />
+    <ClCompile Include="FollowActor.cpp" />
+    <ClCompile Include="FollowCamera.cpp" />
     <ClCompile Include="Font.cpp" />
-    <ClCompile Include="FPSActor.cpp" />
-    <ClCompile Include="FPSCamera.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="HUD.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -55,9 +55,9 @@
     <ClInclude Include="Collision.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="DialogBox.h" />
+    <ClInclude Include="FollowActor.h" />
+    <ClInclude Include="FollowCamera.h" />
     <ClInclude Include="Font.h" />
-    <ClInclude Include="FPSActor.h" />
-    <ClInclude Include="FPSCamera.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="HUD.h" />
     <ClInclude Include="Math.h" />

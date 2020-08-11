@@ -12,7 +12,6 @@
 #include "Game.h"
 #include "Renderer.h"
 #include "PhysWorld.h"
-#include "FPSActor.h"
 #include <algorithm>
 #include "TargetComponent.h"
 

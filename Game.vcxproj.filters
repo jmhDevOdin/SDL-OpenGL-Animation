@@ -64,12 +64,6 @@
     <ClCompile Include="CameraComponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FPSActor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FPSCamera.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="BallActor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -104,6 +98,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="UIScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowActor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCamera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -159,12 +159,6 @@
     <ClInclude Include="CameraComponent.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="FPSActor.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FPSCamera.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="BallActor.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -201,6 +195,8 @@
     <ClInclude Include="UIScreen.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="FollowActor.h" />
+    <ClInclude Include="FollowCamera.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\Sprite.frag">

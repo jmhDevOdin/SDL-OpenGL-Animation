@@ -15,7 +15,7 @@
 #include "UIScreen.h"
 #include "HUD.h"
 #include "MeshComponent.h"
-#include "FPSActor.h"
+#include "FollowActor.h"
 #include "PlaneActor.h"
 #include "TargetActor.h"
 #include "BallActor.h"
@@ -201,7 +201,6 @@ void Game::HandleKeyPress(int key)
 	case SDL_BUTTON_LEFT:
 	{
 		// Fire weapon
-		mFPSActor->Shoot();
 		break;
 	}
 	default:
@@ -357,7 +356,7 @@ void Game::LoadData()
 	SDL_GetRelativeMouseState(nullptr, nullptr);
 
 	// Different camera actors
-	mFPSActor = new FPSActor(this);
+	mFollowActor= new FollowActor(this);
 
 	// Create target actors
 	a = new TargetActor(this);
