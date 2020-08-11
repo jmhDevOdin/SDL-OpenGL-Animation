@@ -1,0 +1,2 @@
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\Debug\Game.exe
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\Debug\Game.pdb
