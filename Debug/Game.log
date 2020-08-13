@@ -1,12 +1,11 @@
 ﻿  Actor.cpp
+  Animation.cpp
   AudioComponent.cpp
-  AudioSystem.cpp
   BallActor.cpp
   BallMove.cpp
+  BoneTransform.cpp
   BoxComponent.cpp
   CameraComponent.cpp
-  Collision.cpp
-  Component.cpp
   DialogBox.cpp
   FollowActor.cpp
   FollowCamera.cpp
@@ -20,25 +19,22 @@ E:\dev\GIT REPOS\SDL-OpenGL-Animation\Game.h(37): message : see declaration of '
 E:\dev\GIT REPOS\SDL-OpenGL-Animation\HUD.cpp(123,37): error C2027: use of undefined type 'Actor'
 E:\dev\GIT REPOS\SDL-OpenGL-Animation\Game.h(25): message : see declaration of 'Actor'
   Main.cpp
-  Math.cpp
-  Mesh.cpp
-E:\dev\GIT REPOS\SDL-OpenGL-Animation\Mesh.cpp(117,74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-E:\dev\GIT REPOS\SDL-OpenGL-Animation\Mesh.cpp(117,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-E:\dev\GIT REPOS\SDL-OpenGL-Animation\Mesh.cpp(117,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   MeshComponent.cpp
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\MeshComponent.cpp(19,2): error C2511: 'MeshComponent::MeshComponent(Actor *)': overloaded member function not found in 'MeshComponent'
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\MeshComponent.h(13): message : see declaration of 'MeshComponent'
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\MeshComponent.cpp(23,1): error C2550: 'MeshComponent::{ctor}': constructor initializer lists are only allowed on constructor definitions
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\MeshComponent.cpp(24,48): error C2671: 'MeshComponent::{ctor}': static member functions do not have 'this' pointers
   MoveComponent.cpp
-  Generating Code...
-  Compiling...
   PauseMenu.cpp
-  PhysWorld.cpp
   PlaneActor.cpp
   Renderer.cpp
-  Shader.cpp
-  SoundEvent.cpp
+  Generating Code...
+  Compiling...
+  SkeletalMeshComponent.cpp
+  Skeleton.cpp
   SpriteComponent.cpp
   TargetActor.cpp
   TargetComponent.cpp
-  Texture.cpp
   UIScreen.cpp
   VertexArray.cpp
   Generating Code...
