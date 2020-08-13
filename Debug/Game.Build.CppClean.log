@@ -1,7 +1,5 @@
 e:\dev\git repos\sdl-opengl-animation\debug\vc142.pdb
 e:\dev\git repos\sdl-opengl-animation\debug\vc142.idb
-e:\dev\git repos\sdl-opengl-animation\debug\movecomponent.obj
-e:\dev\git repos\sdl-opengl-animation\debug\meshcomponent.obj
 e:\dev\git repos\sdl-opengl-animation\debug\mesh.obj
 e:\dev\git repos\sdl-opengl-animation\debug\math.obj
 e:\dev\git repos\sdl-opengl-animation\debug\main.obj
@@ -14,10 +12,12 @@ e:\dev\git repos\sdl-opengl-animation\debug\component.obj
 e:\dev\git repos\sdl-opengl-animation\debug\collision.obj
 e:\dev\git repos\sdl-opengl-animation\debug\cameracomponent.obj
 e:\dev\git repos\sdl-opengl-animation\debug\boxcomponent.obj
+e:\dev\git repos\sdl-opengl-animation\debug\bonetransform.obj
 e:\dev\git repos\sdl-opengl-animation\debug\ballmove.obj
 e:\dev\git repos\sdl-opengl-animation\debug\ballactor.obj
 e:\dev\git repos\sdl-opengl-animation\debug\audiosystem.obj
 e:\dev\git repos\sdl-opengl-animation\debug\audiocomponent.obj
+e:\dev\git repos\sdl-opengl-animation\debug\animation.obj
 e:\dev\git repos\sdl-opengl-animation\debug\actor.obj
 e:\dev\git repos\sdl-opengl-animation\debug\vertexarray.obj
 e:\dev\git repos\sdl-opengl-animation\debug\uiscreen.obj
@@ -26,11 +26,14 @@ e:\dev\git repos\sdl-opengl-animation\debug\targetcomponent.obj
 e:\dev\git repos\sdl-opengl-animation\debug\targetactor.obj
 e:\dev\git repos\sdl-opengl-animation\debug\spritecomponent.obj
 e:\dev\git repos\sdl-opengl-animation\debug\soundevent.obj
+e:\dev\git repos\sdl-opengl-animation\debug\skeleton.obj
+e:\dev\git repos\sdl-opengl-animation\debug\skeletalmeshcomponent.obj
 e:\dev\git repos\sdl-opengl-animation\debug\shader.obj
 e:\dev\git repos\sdl-opengl-animation\debug\renderer.obj
 e:\dev\git repos\sdl-opengl-animation\debug\planeactor.obj
 e:\dev\git repos\sdl-opengl-animation\debug\physworld.obj
 e:\dev\git repos\sdl-opengl-animation\debug\pausemenu.obj
+e:\dev\git repos\sdl-opengl-animation\debug\movecomponent.obj
 e:\dev\git repos\sdl-opengl-animation\debug\game.tlog\cl.command.1.tlog
 e:\dev\git repos\sdl-opengl-animation\debug\game.tlog\cl.read.1.tlog
 e:\dev\git repos\sdl-opengl-animation\debug\game.tlog\cl.write.1.tlog

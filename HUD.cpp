@@ -104,36 +104,36 @@ void HUD::UpdateRadar(float deltaTime)
 {
 	// Clear blip positions from last frame
 	mBlips.clear();
-	
+
 	// Convert player position to radar coordinates (x forward, z up)
 	Vector3 playerPos = mGame->GetPlayer()->GetPosition();
 	Vector2 playerPos2D(playerPos.y, playerPos.x);
 	// Ditto for player forward
 	Vector3 playerForward = mGame->GetPlayer()->GetForward();
 	Vector2 playerForward2D(playerForward.x, playerForward.y);
-	
+
 	// Use atan2 to get rotation of radar
 	float angle = Math::Atan2(playerForward2D.y, playerForward2D.x);
 	// Make a 2D rotation matrix
 	Matrix3 rotMat = Matrix3::CreateRotation(angle);
-	
+
 	// Get positions of blips
 	for (auto tc : mTargetComps)
 	{
 		Vector3 targetPos = tc->GetOwner()->GetPosition();
 		Vector2 actorPos2D(targetPos.y, targetPos.x);
-		
+
 		// Calculate vector between player and target
 		Vector2 playerToTarget = actorPos2D - playerPos2D;
-		
+
 		// See if within range
 		if (playerToTarget.LengthSq() <= (mRadarRange * mRadarRange))
 		{
 			// Convert playerToTarget into an offset from
 			// the center of the on-screen radar
 			Vector2 blipPos = playerToTarget;
-			blipPos *= mRadarRadius/mRadarRange;
-			
+			blipPos *= mRadarRadius / mRadarRange;
+
 			// Rotate blipPos
 			blipPos = Vector2::Transform(blipPos, rotMat);
 			mBlips.emplace_back(blipPos);
