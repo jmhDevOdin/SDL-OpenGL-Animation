@@ -1,19 +1,5 @@
 ﻿  Actor.cpp
-  Animation.cpp
-  AudioComponent.cpp
-  AudioSystem.cpp
-  BallActor.cpp
-  BallMove.cpp
   BoneTransform.cpp
-  BoxComponent.cpp
-  CameraComponent.cpp
-  Collision.cpp
-  Component.cpp
-  DialogBox.cpp
-  FollowActor.cpp
-  FollowCamera.cpp
-  Font.cpp
-  Game.cpp
   HUD.cpp
 E:\dev\GIT REPOS\SDL-OpenGL-Animation\HUD.cpp(109,40): error C2027: use of undefined type 'FollowActor'
 E:\dev\GIT REPOS\SDL-OpenGL-Animation\Game.h(37): message : see declaration of 'FollowActor'
@@ -22,27 +8,18 @@ E:\dev\GIT REPOS\SDL-OpenGL-Animation\Game.h(37): message : see declaration of '
 E:\dev\GIT REPOS\SDL-OpenGL-Animation\HUD.cpp(123,37): error C2027: use of undefined type 'Actor'
 E:\dev\GIT REPOS\SDL-OpenGL-Animation\Game.h(25): message : see declaration of 'Actor'
   Main.cpp
-  Math.cpp
   Mesh.cpp
 E:\dev\GIT REPOS\SDL-OpenGL-Animation\Mesh.cpp(117,74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 E:\dev\GIT REPOS\SDL-OpenGL-Animation\Mesh.cpp(117,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 E:\dev\GIT REPOS\SDL-OpenGL-Animation\Mesh.cpp(117,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  Generating Code...
-  Compiling...
   MeshComponent.cpp
-  MoveComponent.cpp
-  PauseMenu.cpp
-  PhysWorld.cpp
-  PlaneActor.cpp
-  Renderer.cpp
-  Shader.cpp
-  SkeletalMeshComponent.cpp
   Skeleton.cpp
-  SoundEvent.cpp
-  SpriteComponent.cpp
-  TargetActor.cpp
-  TargetComponent.cpp
-  Texture.cpp
-  UIScreen.cpp
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\Skeleton.cpp(111,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\Skeleton.cpp(112,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\Skeleton.cpp(113,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\Skeleton.cpp(114,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\Skeleton.cpp(116,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\Skeleton.cpp(117,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\GIT REPOS\SDL-OpenGL-Animation\Skeleton.cpp(118,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   VertexArray.cpp
   Generating Code...
